@@ -26,7 +26,7 @@
     </div>
 
     <div class="row">
-      <div class="col-sm-4 col-md-4 col-sm-offset-4 col-xs-offset-4">
+      <div class="col-sm-4 col-md-4 col-sm-offset-4">
           <div class="checkbox" ng-repeat="task in todoList">
             <input type="checkbox" ng-model="task.done"> <span ng-bind="task.todoText"></span>
           </div>
